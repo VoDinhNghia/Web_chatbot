@@ -1,0 +1,224 @@
+body{
+    font-size: 18px; 
+}
+.container_home{
+    width: 1000px;
+    margin: auto;
+    background-color: black;
+}
+#date{
+    text-align: center;
+    background: #00882D;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    min-height: 100px;
+    background: #ccc;
+}
+.footer-main {
+    width: 100%;
+    min-height: 250px;
+    background-color: #00882D;
+		
+}
+.footer-colunm {
+    width:45%;
+    float:left;
+	padding: 15px;
+	color: white;
+}
+.footer-colunm img{
+	border-radius: 50%;
+	border: 1px solid green;
+		
+}
+.footer-colunm a{
+	text-decoration: none;
+	color: white;
+}
+.footer-copyright {
+	width: 100%;
+    padding-top: 20px;
+    min-height: 60px;
+    background-color: #2B5DD1 ;
+	color: white;
+}
+.footer-copyright p{
+    text-align: center; 
+    color: white; 
+    line-height: 30px;
+}
+.form_cauhoi{
+    color: white;
+    width: 600px;
+    margin: auto;
+    height: 450px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+#title{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.form_cauhoi #form #cauhoi{
+    padding: 15px;
+    color: red;
+}
+.form_cauhoi #form #cauhoi #id1{
+    width: 400px;
+    height: 25px;
+    font-size: 18px;
+    color: green;
+}
+.form_cauhoi #form #cauhoi #btn_url{
+    width: 80px;
+    height: 30px;
+    border: 1px solid green;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: red;
+}
+.form_cauhoi #cau_tl{
+    color: green;
+    padding-left: 15px;
+}
+.form_cauhoi #sp_Q_contend{
+    color: green;
+    padding-left: 15px;
+}
+.form_cauhoi #sp_Q_contend #c_h{
+    color: green;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.form_cauhoi #cau_traloi{
+    color: white;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+#p_batdau{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid green;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 50%;
+}
+#p_batdau #a_batdau{
+    color: green;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+  @media screen and (min-width: 300px) and (max-width: 450px){
+    body {
+      background-color: white;
+      font-size: 32px;
+    }
+    .footer-colunm{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-colunm a{
+        font-size: 32px;
+    }
+    .footer-copyright {
+       font-size: 35px;
+       height: 150px;
+    }
+    .form_cauhoi{
+        width: 98%;
+        height: 600px;
+    }
+    .form_cauhoi #form #cauhoi #id1{
+        width: 70%;
+        height: 40px;
+        font-size: 30px;
+    }
+    .form_cauhoi #form #cauhoi #btn_url{
+        width: 130px;
+        height: 40px;
+        font-size: 25px;
+    }
+    .form_cauhoi #cau_traloi{
+        font-size: 30px;
+    }
+  }
+  @media screen and (min-width: 451px) and (max-width: 600px){
+    body {
+        background-color: white;
+        font-size: 28px;
+      }
+      .footer-colunm{
+          float: none;
+          text-align: center;
+          width: 100%;
+      }
+      .footer-colunm a{
+          font-size: 28px;
+      }
+      .footer-copyright {
+         font-size: 32px;
+         height: 150px;
+      }
+      .form_cauhoi{
+        width: 85%;
+        height: 600px;
+    }
+    .form_cauhoi #form #cauhoi #id1{
+        width: 70%;
+        height: 40px;
+        font-size: 30px;
+    }
+    .form_cauhoi #form #cauhoi #btn_url{
+        width: 100px;
+        height: 40px;
+        font-size: 25px;
+    }
+    .form_cauhoi #cau_traloi{
+        font-size: 30px;
+    }
+  }
+  @media screen and (min-width: 601px) and (max-width: 750px){
+    body {
+        background-color: white;
+        font-size: 20px;
+      }
+      .footer-colunm a{
+          font-size: 20px;
+      }
+      .footer-copyright {
+         font-size: 24px;
+         height: 100px;
+      }
+      .form_cauhoi{
+        width: 80%;
+    }
+    .form_cauhoi #form #cauhoi #id1{
+        width: 70%;
+        height: 40px;
+        font-size: 30px;
+    }
+    .form_cauhoi #form #cauhoi #btn_url{
+        width: 130px;
+        height: 40px;
+        font-size: 25px;
+    }
+    .form_cauhoi #cau_traloi{
+        font-size: 25px;
+    }
+  }

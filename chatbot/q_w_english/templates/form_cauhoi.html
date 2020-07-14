@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>web chatbot</title>
+<link href="{% static 'style.css' %}" rel="stylesheet">
+</head>
+
+<body>
+<div class = "container_home">
+    <i><marquee id="date"></marquee></i>
+    <p id = "title">Web chatbot using machine learning with python django </p>
+    <div class='form_cauhoi'>
+        <form id="form" method="POST">{% csrf_token %}
+            <p id="cauhoi">Question  <input type="text" id="id1" name="input_cauhoi" />
+                <Button type="submit" id="btn_url" onclick="return check()">Submit</Button>
+            </p>  
+        </form>
+        <span id="sp_Q_contend">Question contend: <p id="c_h">{{cauhoi}}</p></span>
+        <p id="cau_tl">Answer: </p>
+        <p id="cau_traloi">{{cautraloi}}</p>
+    </div><br><br>
+    {% include "footer.html" %}
+</div>
+    <script src="{% static 'js_date.js' %}">    
+	</script>
+</body>
+</html>

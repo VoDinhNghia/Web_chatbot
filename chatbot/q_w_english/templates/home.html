@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>web chatbot</title>
+<link href="{% static 'style.css' %}" rel="stylesheet">
+</head>
+
+<body>
+<div class = "container_home">
+    <i><marquee id="date"></marquee></i>
+    {% include "index.html" %}
+    {% include "footer.html" %}
+</div>
+    <script src="{% static 'js_date.js' %}">    
+	</script>
+</body>
+</html>
+

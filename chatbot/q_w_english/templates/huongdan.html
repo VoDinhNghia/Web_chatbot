@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutorial</title>
+<link href="{% static 'style.css' %}" rel="stylesheet">
+</head>
+
+<body>
+<div class = "container_home">
+    <i><marquee id="date"></marquee></i>
+    <p style="color: green; padding-left: 15px; padding-right: 15px">Xin vui lòng nhập những câu hỏi hoặc các thuật ngữ (bằng tiếng anh) liên quan đến lĩnh vực công nghệ thông tin ví dụ như: What is the machine learning?, 
+       python programming language.... vào trường nhập thông tin sau đó nhấn vào nút submit hoặc nhấn enter hệ thống sẽ đưa ra gợi ý câu trả lời phù hợp
+       ở phía bên dưới. Sau khi bạn nhấn vào nút submit nội dung câu hỏi của bạn sẽ được lưu vào cơ sở dữ liệu để phân tích câu hỏi 
+       và đưa vào tập trainning. Hiện tại bộ dữ liệu rất ít nên xin các bạn thông cảm! Xin chân thành cảm ơn vì đã ghé thăm trang web.
+    </p>
+    <h3 style="color: red; padding-left: 15px;">Một số gợi ý như sau:</h3>
+    <ul style="color: green; padding-left: 60px;">
+           <li>What is the machine learning?</li>
+           <li>Application of machine learning?</li>
+           <li>What is programming language?</li>
+           <li>python programming language</li>
+           <li>What is the AI?</li>
+           <li>what is an application software?</li>
+           <li>what is the computer science?</li>
+           <li>Supervised learning</li>
+           <li>Unsupervised learning</li>
+    </ul>
+    {% include "footer.html" %}
+</div>
+    <script src="{% static 'js_date.js' %}">    
+	</script>
+</body>
+</html>

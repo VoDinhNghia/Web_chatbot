@@ -1,0 +1,76 @@
+{
+    "intents": [
+        {
+            "tag": "Ask name",
+            "patterns":["What is your name?","What your name?"],
+            "responses":["My name is chatbot, nice to meet you!"],
+            "context_set":""
+        },
+        {
+            "tag": "machine learning",
+            "patterns":["What is the machine learning?"],
+            "responses":["Machine learning is an area of artificial intelligence that involves the research and development of techniques that allow systems to learn automatically from data to solve specific problems."],
+            "context_set":""
+        },
+        {
+            "tag": "application ml",
+            "patterns":["Application of machine learning?"],
+            "responses":[ "Applications of Machine Learning include: Web Search Engine, Photo tagging Applications, Spam Detector, Database Mining for growth of automation, face recognition..."],
+            "context_set":""
+        },
+        {
+            "tag": "programming language",
+            "patterns":["What is programming language?"],
+            "responses":["The programming language is a subset of the computer language, designed and standardized to transmit instructions to machines with processors, in particular computers. Programming language is used to program computers, create machine programs that control the computer or describe algorithms for others to read and understand."],
+            "context_set":""
+        },
+        {
+            "tag": "hello",
+            "patterns":["hello","hi"],
+            "responses":[ "Hi, nice to meet you"],
+            "context_set":""
+        },
+        {
+            "tag": "python language",
+            "patterns":["python programming language","python"],
+            "responses":["Python is a high-level programming language for general-purpose programming purposes, created by Guido van Rossum and first launched in 1991. Python is designed with strong advantages of being easy to read, easy to learn and remember. . Python is a language with a very bright form, clear structure, convenient for beginners to programming."],
+            "context_set":""
+        },
+        {
+            "tag": "AI",
+            "patterns":["What is the AI?","AI"],
+            "responses":["In computer science, artificial intelligence or AI, sometimes called artificial intelligence, is the intelligence expressed by machines, in contrast to the natural intelligence shown by humans."],
+            "context_set":""
+        },
+        {
+            "tag": "Application software",
+            "patterns":["Application software","what is an Application software?"],
+            "responses":[ "Application software is a type of program capable of making a computer directly perform a task that a user wants to perform."],
+            "context_set":""
+        },
+        {
+            "tag": "cs",
+            "patterns":["what is the computer science?","computer science"],
+            "responses":[ "Computer science is the study of the theoretical foundations of information and computing and their implementation and application in computer systems."],
+            "context_set":""
+        },
+        {
+            "tag": "js language",
+            "patterns":["javascript programming language","js"],
+            "responses":[ "JavaScript, according to the current version, is an interpreted programming language developed from prototype concepts. This language is widely used for websites as well as server side."],
+            "context_set":""
+        },
+        {
+            "tag": "supervised",
+            "patterns":["what is the Supervised Learning?","Supervised Learning"],
+            "responses":[ "Supervised learning is a technique of machine learning to build a function from the training data. Training data consists of pairs of desired input and output objects."],
+            "context_set":""
+        },
+        {
+            "tag": "un sp",
+            "patterns":["what is the unsupervised Learning?","unsupervised learning"],
+            "responses":[ "Unsupervised learning is a method of machine learning aimed at finding a model that fits the observations. It differs from supervised learning in that the corresponding correct output for each input is unknown."],
+            "context_set":""
+        }
+    ]
+}
